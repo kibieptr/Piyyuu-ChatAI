@@ -7,6 +7,12 @@
 
 body {
   background-color: #1e1e1e;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 255, 255);
+}
+
+html {
+  -webkit-overflow-scrolling: touch;
 }
 
 .logo {
@@ -58,4 +64,16 @@ body {
 
 .read-the-docs {
   color: #888;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
 }
